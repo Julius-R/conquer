@@ -15,6 +15,34 @@ a {
   max-width: 1200px;
   margin: auto; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
+.text-grn {
+  color: #178A27; }
+
+.text-blu {
+  color: #1686C1; }
+
+.text-red {
+  color: #852406; }
+
+.btn {
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.25em; }
+
+.btn-green {
+  background-color: #178A27; }
+
+.btn-blu {
+  background-color: #1686C1; }
+
+.btn-red {
+  background-color: #852406; }
+
 .nav-bar {
   position: fixed;
   width: 100%;
@@ -95,3 +123,14 @@ a {
 @media screen and (min-width: 768px) {
   .hero {
     height: 600px; } }
+
+.sec-1 {
+  padding: 50px 0; }
+  .sec-1 .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin: 15px auto; }
+    .sec-1 .card .content-area {
+      padding: 20px 30px; }
