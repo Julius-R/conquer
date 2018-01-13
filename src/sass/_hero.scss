@@ -1,0 +1,30 @@
+.hero {
+    padding-top: 65px;
+    background-image: url("../img/bg-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 80%;
+        color: #fff;
+        .title {
+            font-size: 4em;
+            font-weight: 500;
+        }
+        .subtitle {
+            font-size: 1.5em;
+            font-weight: 500;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 600px;
+    }
+}
