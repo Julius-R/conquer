@@ -3,6 +3,8 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Open Sans';
+    line-height: 1.75;
+    color: #333;
 }
 
 a {
@@ -28,12 +30,16 @@ img {
 .btn {
     padding: 10px 30px;
     color: #fff;
-    border-radius: 5px;
-    font-size: 1.25em; 
+    border-radius: 5px; 
 }
 
 .btn-green {background-color: $green;}
 .btn-blu {background-color: $blue;}
 .btn-red {background-color: $red;}
-
+.btn-gray {
+    border: 1px solid $offWhite;
+    color: #333;
+    border-radius: 10px;
+    background-color: #fff;;
+}
     
