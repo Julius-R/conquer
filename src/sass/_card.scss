@@ -1,7 +1,10 @@
 .card {
+    
+    align-items: stretch;
     background-color: $grain;
-    margin: 15px auto;
+    margin: 15px;
     img {
+        width: 100%;
         height: auto;
     }
     .content-area {
@@ -11,25 +14,13 @@
 }
 
 .col-2 {
-    max-width: 550px;
-    margin: 15px auto;
+    flex: 1 1 calc(50% - 1em);
 }
 
 .col-3 {
-    max-width: 360px;
-    margin: 15px auto;
+    flex: 1 1 calc(33% - 1em);
 }
 
-@media screen and (min-width: 768px ){
-    .col-2 {
-        max-width: 540px;
-        width: 50%;
-        margin: 15px;
-    }
-    
-    .col-3 {
-        max-width: 360px;
-        width: 33.3333333333%;
-        margin: 15px;
-    }
+.col-4 {
+    flex: 1 1 calc(25% - 1em);
 }

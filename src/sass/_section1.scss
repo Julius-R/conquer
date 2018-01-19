@@ -1,5 +1,5 @@
 .sec-1 {
-    padding: 50px 20px 20px;
+    padding: 50px 0 20px 0;
 
     .card {
         .content-area {
@@ -15,12 +15,14 @@
 
 @media screen and (min-width: 768px ){
     .sec-1 {    
-        display: flex;
-        justify-content: center;
-        .card {
-            .content-area {
-                h3 {text-align: left;}
-                p{text-align: left;}
+        .container {
+            display: flex;
+            justify-content: center;
+            .card {
+                .content-area {
+                    h3 {text-align: left;}
+                    p{text-align: left;}
+                }
             }
         }
     
